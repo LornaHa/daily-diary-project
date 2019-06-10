@@ -1,0 +1,17 @@
+2019-06-10 14:16:13.540 BST [1127] LOG:  listening on IPv6 address "::1", port 5432
+2019-06-10 14:16:13.540 BST [1127] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-06-10 14:16:13.541 BST [1127] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2019-06-10 14:16:13.555 BST [1128] LOG:  database system was shut down at 2019-06-10 14:16:04 BST
+2019-06-10 14:16:13.559 BST [1127] LOG:  database system is ready to accept connections
+2019-06-10 14:17:28.177 BST [1148] ERROR:  syntax error at or near "CREATE" at character 32
+2019-06-10 14:17:28.177 BST [1148] STATEMENT:  CREATE DATABASE "lornas_diary"
+	CREATE DATABASE "lornas_diary";
+2019-06-10 14:27:04.225 BST [1161] FATAL:  database "daily_diary" does not exist
+2019-06-10 14:28:01.490 BST [1163] FATAL:  database "daily_diary" does not exist
+2019-06-10 14:28:44.167 BST [1165] FATAL:  database "daily_diary" does not exist
+2019-06-10 14:28:46.982 BST [1148] ERROR:  syntax error at or near "CREATE" at character 25
+2019-06-10 14:28:46.982 BST [1148] STATEMENT:  CREATE DATABASE "lorna"
+	CREATE DATABASE "daily_diary"
+	CREATE DATABASE daily_diary
+	CREATE DATABASE daily_diary
+	CREATE DATABASE daily_diary;
