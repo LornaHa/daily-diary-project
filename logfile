@@ -15,3 +15,28 @@
 	CREATE DATABASE daily_diary
 	CREATE DATABASE daily_diary
 	CREATE DATABASE daily_diary;
+2019-06-10 15:38:48.880 BST [1354] FATAL:  database "lorna" does not exist
+2019-06-10 15:39:03.904 BST [1369] FATAL:  database "lorna" does not exist
+2019-06-10 15:39:09.745 BST [1395] FATAL:  database "lorna" does not exist
+2019-06-10 15:39:47.026 BST [1424] FATAL:  database "lorna" does not exist
+2019-06-10 15:39:53.384 BST [1439] FATAL:  database "lora" does not exist
+2019-06-10 15:39:56.943 BST [1453] FATAL:  database "lorna" does not exist
+2019-06-10 15:42:19.375 BST [1474] FATAL:  database "postgresql" does not exist
+2019-06-10 15:42:22.523 BST [1488] FATAL:  database "lorna" does not exist
+2019-06-10 15:42:37.985 BST [1502] FATAL:  database "lorna" does not exist
+2019-06-10 15:42:41.756 BST [1516] FATAL:  database "lorna" does not exist
+2019-06-10 15:42:52.646 BST [1531] FATAL:  database "postgresql" does not exist
+2019-06-10 15:50:50.909 BST [1639] FATAL:  database "bookmark_manager" does not exist
+2019-06-10 15:54:21.797 BST [1651] FATAL:  database "bookmark_manager" does not exist
+2019-06-10 15:54:48.332 BST [1653] FATAL:  database "bookmark_manager" does not exist
+2019-06-10 15:55:39.294 BST [1660] FATAL:  database "lorna" does not exist
+2019-06-10 15:55:56.483 BST [1662] FATAL:  database "lorna" does not exist
+2019-06-10 16:02:11.914 BST [1683] FATAL:  database "daily_daiary" does not exist
+2019-06-10 16:12:58.493 BST [1570] ERROR:  relation "enteries_id_seq" does not exist
+2019-06-10 16:12:58.493 BST [1570] STATEMENT:  CREATE TABLE "public"."enteries" (
+	    "id" int4 NOT NULL DEFAULT nextval('enteries_id_seq'::regclass),
+	    "url" varchar(60),
+	    PRIMARY KEY ("id")
+	);
+2019-06-10 16:17:16.689 BST [1724] ERROR:  table "entries" does not exist
+2019-06-10 16:17:16.689 BST [1724] STATEMENT:  DROP TABLE entries;
