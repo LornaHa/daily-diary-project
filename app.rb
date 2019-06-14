@@ -5,6 +5,11 @@ class DiaryManager < Sinatra::Base
     "Daily Diary"
   end
 
+  get '/view' do
+    entries = ["diary_entry_one", "diary_entry_two", "diary_entry_three"]
+    entries.join
+  end
+
   get '/new' do
     erb :new
   end
