@@ -40,3 +40,45 @@
 	);
 2019-06-10 16:17:16.689 BST [1724] ERROR:  table "entries" does not exist
 2019-06-10 16:17:16.689 BST [1724] STATEMENT:  DROP TABLE entries;
+2019-06-26 15:49:42.969 BST [21730] LOG:  listening on IPv6 address "::1", port 5432
+2019-06-26 15:49:42.969 BST [21730] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-06-26 15:49:42.970 BST [21730] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2019-06-26 15:49:42.984 BST [21731] LOG:  database system was shut down at 2019-06-26 15:49:26 BST
+2019-06-26 15:49:42.987 BST [21730] LOG:  database system is ready to accept connections
+2019-06-26 15:49:46.860 BST [21751] FATAL:  database "lorna" does not exist
+2019-06-26 15:49:53.585 BST [21765] FATAL:  database "daily_diary_test" does not exist
+2019-06-26 15:49:53.611 BST [21766] FATAL:  database "daily_diary_test" does not exist
+2019-06-26 15:50:15.163 BST [21781] FATAL:  database "daily_diary_test" does not exist
+2019-06-26 15:50:15.181 BST [21782] FATAL:  database "daily_diary_test" does not exist
+2019-06-26 15:50:15.184 BST [21783] FATAL:  database "daily_diary_test" does not exist
+2019-06-26 15:50:24.661 BST [21796] FATAL:  database "daily_diary_test" does not exist
+2019-06-26 15:50:42.377 BST [21797] FATAL:  database "daily_diary_test" does not exist
+2019-06-27 11:53:33.666 BST [22265] FATAL:  database "daily_diary_test" does not exist
+2019-06-27 11:53:33.698 BST [22266] FATAL:  database "daily_diary_test" does not exist
+2019-06-27 11:53:33.702 BST [22267] FATAL:  database "daily_diary_test" does not exist
+2019-06-27 11:53:51.830 BST [22280] FATAL:  database "daily_diary_test" does not exist
+2019-06-27 11:54:05.045 BST [22281] FATAL:  database "daily_diary_test" does not exist
+2019-06-27 11:54:13.140 BST [22282] FATAL:  database "daily_diary_test" does not exist
+2019-06-27 11:56:07.131 BST [22327] FATAL:  database "lorna" does not exist
+2019-06-27 11:57:17.364 BST [22359] FATAL:  database "daily_diary_test" does not exist
+2019-06-27 11:57:23.079 BST [22361] FATAL:  database "daily_diary_test" does not exist
+2019-06-27 11:57:26.503 BST [22362] FATAL:  database "daily_diary_test" does not exist
+2019-06-27 12:03:50.145 BST [22374] FATAL:  database "daily_diary_test" does not exist
+2019-06-27 12:04:02.227 BST [22375] FATAL:  database "daily_diary_test" does not exist
+2019-06-27 12:04:39.978 BST [22379] FATAL:  database "daily_diary" does not exist
+2019-06-27 12:13:49.814 BST [22413] FATAL:  database "daily_diary" does not exist
+2019-06-27 12:14:31.752 BST [22430] FATAL:  database "daily_diary" does not exist
+2019-06-27 12:15:06.467 BST [22427] ERROR:  syntax error at or near "CREATE" at character 29
+2019-06-27 12:15:06.467 BST [22427] STATEMENT:  CREATE DATABASE daily_diary
+	CREATE DATABASE "daily_diary";
+2019-06-27 12:19:18.107 BST [22443] FATAL:  database "daily_diary_test" does not exist
+2019-06-27 12:19:30.440 BST [22445] FATAL:  database "daily_diary_test" does not exist
+2019-06-27 12:23:02.739 BST [22461] ERROR:  relation "daily_diary_test" does not exist at character 15
+2019-06-27 12:23:02.739 BST [22461] STATEMENT:  SELECT * FROM daily_diary_test;
+2019-06-27 12:25:28.556 BST [22493] ERROR:  relation "entries" does not exist
+2019-06-27 12:25:28.556 BST [22493] STATEMENT:  TRUNCATE entries;
+2019-06-27 12:25:28.581 BST [22494] ERROR:  relation "entries" does not exist
+2019-06-27 12:25:28.581 BST [22494] STATEMENT:  TRUNCATE entries;
+2019-06-27 12:25:28.587 BST [22495] ERROR:  relation "entries" does not exist
+2019-06-27 12:25:28.587 BST [22495] STATEMENT:  TRUNCATE entries;
+2019-06-27 12:26:49.072 BST [22513] FATAL:  database "postres" does not exist

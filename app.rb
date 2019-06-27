@@ -1,25 +1,26 @@
 require 'sinatra/base'
 
+
 class DiaryManager < Sinatra::Base
   get '/' do
     "Daily Diary"
   end
 
-  get '/view' do
-    entries = ["diary_entry_one", "diary_entry_two", "diary_entry_three"]
-    entries.join
+  get '/diary' do
+    @entries = View.all
+    erb :"diary/index"
   end
 
-  get '/new' do
-    erb :new
+  get '/diary/new' do
+    erb :"diary/new"
   end
 
-  post '/' do
+  post '/diary' do
     p "form data submitted to the / route"
     title = params['title']
     connection = PG.connect(dbname: 'daily_diary_test')
     connection.exec("INSERT INTO entries (title) VALUES('#{title}')")
-    redirect '/'
+    redirect '/diary'
   end
 
   run! if app_file == $0
